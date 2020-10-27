@@ -1,0 +1,20 @@
+GET http://localhost:3000/videos
+
+###
+GET http://localhost:3000/videos/5f97727d47529606683f9101
+
+###
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "title" : "Luisito",
+    "description" : "Descripcion",
+    "url" :"https://www.youtube.com/watch?v=lzDc9gR7CZo&ab_channel=LuisitoComunica"
+}
+
+###
+DELETE http://localhost:3000/videos/1
+
+###
+PUT http://localhost:3000/videos/1
